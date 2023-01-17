@@ -1,2 +1,8 @@
 # event-manager-lab
- Web Application written in C++
+
+Application uses Wt library 
+
+Backend uses dbo and auth module from Wt library
+
+Comunication is done with Ice library
+

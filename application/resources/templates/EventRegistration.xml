@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<messages>
+	<message id=''>
+
+	</message>
+
+	<message id=''>
+
+	</message>
+
+	<message id='event-registration-form'>
+		<form class="form-inline border-left shadow bg-body rounded p-3">
+			<div class="form-floating my-3"> ${event-date class="form-control" } <label
+					class="form-control=sm" for="${id:event-date}"> Event <b>Date</b>
+				</label>
+			</div>
+			<hr class="mb-2" />
+			<div class="form-floating mb-3"> ${client-name class="form-control" } <label
+					for="${id:client-name}"> Client <b>Name</b>
+				</label>
+			</div>
+			<div class="form-floating mb-3"> ${client-phone class="form-control" } <label
+					for="${id:client-phone}"> Client <b>Phone</b>
+				</label>
+			</div>
+			<div class="row">
+
+
+				<div class="form-floating mb-3 col-md-6"> ${event-start class="form-control" } <label
+						for="${id:event-start}"> Start <b>Time</b>
+					</label>
+				</div>
+
+				<div class="form-floating mb-3 col-md-6"> ${event-duration class="form-control" } <label
+						for="${id:event-duration}">
+						<b>Duration</b>
+					</label>
+				</div>
+			</div>
+			<div class="form-floating mb-3"> ${event-location class="form-control" } <label
+					for="${id:event-location}">
+					<b>Location</b>
+				</label>
+			</div>
+			<div class="form-floating mb-3"> ${event-observations class="form-control" } <label
+					for="${id:event-observations}">
+					<b>Observations</b>
+				</label>
+			</div>
+			<span class="help-inline text-danger">${submit-info}</span>
+		</form>
+	</message>
+
+
+	<message id='service-form'>
+		<form class="form-inline border-left shadow bg-body rounded event-form p-3 pb-1 mb-1">
+			<div class="form-floating mb-3"> ${provider-identity class="form-control" } <label
+					for="${id:provider-identity}">Provider Name</label>
+			</div>
+			<div class="row">
+
+				<div class="form-floating mb-3 col-md-6"> ${service-start class="form-control" } <label
+						for="${id:service-start}"> Start</label>
+				</div>
+
+				<div class="form-floating mb-3 col-md-6"> ${service-duration class="form-control" } <label
+						for="${id:service-duration}"> Durata Ore</label>
+				</div>
+
+			</div>
+			<div class="form-floating mb-3"> ${service-cost class="form-control" } <label
+					for="${id:service-cost}">Cost</label>
+			</div>
+			<div class="form-floating mb-3"> ${service-description class="form-control" } <label
+					for="${id:service-description}">Descriere serviciu</label>
+			</div>
+			<div class="form-floating mb-3"> ${service-observations class="form-control" } <label
+					for="${id:service-observations}">Observatii Suplimentare</label>
+			</div>
+			<span class="help-inline text-danger">${submit-info}</span>
+		</form>
+	</message>
+
+</messages>

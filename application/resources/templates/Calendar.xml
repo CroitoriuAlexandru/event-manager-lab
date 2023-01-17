@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<messages>
+
+	<message id='calendar-template'>
+
+		<div class="--noshadow evo-calendar calendar-initialized ${style-class}">
+			<div class="calendar-sidebar">
+				<div class="calendar-year">
+					<button class="icon-button" role="button" data-year-val="prev"
+						title="Previous year">
+						<span class="chevron-arrow-left"></span>
+					</button>
+					<p>2022</p>
+					<button class="icon-button" role="button" data-year-val="next" title="Next year">
+						<span
+							class="chevron-arrow-right"></span>
+					</button>
+				</div>
+				<div class="month-list">
+					<ul class="calendar-months">
+						<li class="month" role="button">January</li>
+						<li class="month" role="button">February</li>
+						<li class="month" role="button">March</li>
+						<li class="month" role="button">April</li>
+						<li class="month" role="button">May</li>
+						<li class="month" role="button">June</li>
+						<li class="month" role="button">July</li>
+						<li class="month" role="button">August</li>
+						<li class="month" role="button">September</li>
+						<li class="month" role="button">October</li>
+						<li class="month" role="button">November</li>
+						<li class="month active-month" role="button">December</li>
+					</ul>
+				</div>
+				<span id="sidebarToggler" role="button" aria-pressed="" title="Close sidebar">
+					<button
+						class="icon-button">
+						<span class="bars"></span>
+					</button>
+				</span>
+			</div>
+			<div class="calendar-inner">
+				<table class="calendar-table">
+					<tbody>
+						<tr>
+							<th colspan="7">December</th>
+						</tr>
+						<tr class="calendar-header">
+							<td class="calendar-header-day --weekend">Sun</td>
+							<td class="calendar-header-day">Mon</td>
+							<td class="calendar-header-day">Tue</td>
+							<td class="calendar-header-day">Wed</td>
+							<td class="calendar-header-day">Thu</td>
+							<td class="calendar-header-day">Fri</td>
+							<td class="calendar-header-day --weekend">Sat</td>
+						</tr>
+						<tr class="calendar-body">
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td class="calendar-day">
+								<div class="day" role="button" data-date-val="December 01, 2022">1</div>
+							</td>
+							<td class="calendar-day">
+								<div class="day" role="button" data-date-val="December 02, 2022">2</div>
+							</td>
+							<td class="calendar-day --weekend">
+								<div class="day" role="button" data-date-val="December 03, 2022">3</div>
+							</td>
+						</tr>
+						<tr class="calendar-body">
+							<td class="calendar-day --weekend">
+								<div class="day" role="button" data-date-val="December 04, 2022">4</div>
+							</td>
+							<td class="calendar-day">
+								<div class="day" role="button" data-date-val="December 05, 2022">5</div>
+							</td>
+							<td class="calendar-day">
+								<div class="day" role="button" data-date-val="December 06, 2022">6</div>
+							</td>
+							<td class="calendar-day">
+								<div class="day calendar-active" role="button" data-date-val="December 07, 2022">
+									7
+									<span
+										class="event-indicator">
+										<div class="type-bullet">
+											<div class="type-holiday"></div>
+										</div>
+										<div class="type-bullet">
+											<div class="type-event"></div>
+										</div>
+									</span>
+								</div>
+							</td>
+							<td class="calendar-day">
+								<div class="day" role="button" data-date-val="December 08, 2022">8</div>
+							</td>
+							<td class="calendar-day">
+								<div class="day" role="button" data-date-val="December 09, 2022">9</div>
+							</td>
+							<td class="calendar-day --weekend">
+								<div class="day" role="button" data-date-val="December 10, 2022">10</div>
+							</td>
+						</tr>
+						<tr class="calendar-body">
+							<td class="calendar-day --weekend">
+								<div class="day" role="button" data-date-val="December 11, 2022">
+									11
+									<span
+										class="event-indicator">
+										<div class="type-bullet">
+											<div class="type-event"></div>
+										</div>
+									</span>
+								</div>
+							</td>
+							<td class="calendar-day">
+								<div class="day" role="button" data-date-val="December 12, 2022">
+									12
+									<span
+										class="event-indicator">
+										<div class="type-bullet">
+											<div class="type-event"></div>
+										</div>
+									</span>
+								</div>
+							</td>
+							<td class="calendar-day">
+								<div class="day" role="button" data-date-val="December 13, 2022">
+									13
+									<span
+										class="event-indicator">
+										<div class="type-bullet">
+											<div class="type-event"></div>
+										</div>
+									</span>
+								</div>
+							</td>
+							<td class="calendar-day">
+								<div class="day" role="button" data-date-val="December 14, 2022">
+									14
+									<span
+										class="event-indicator">
+										<div class="type-bullet">
+											<div class="type-event"></div>
+										</div>
+									</span>
+								</div>
+							</td>
+							<td class="calendar-day">
+								<div class="day" role="button" data-date-val="December 15, 2022">
+									15
+									<span
+										class="event-indicator">
+										<div class="type-bullet">
+											<div class="type-event"></div>
+										</div>
+									</span>
+								</div>
+							</td>
+							<td class="calendar-day">
+								<div class="day" role="button" data-date-val="December 16, 2022">
+									16
+									<span
+										class="event-indicator">
+										<div class="type-bullet">
+											<div class="type-event"></div>
+										</div>
+									</span>
+								</div>
+							</td>
+							<td class="calendar-day --weekend">
+								<div class="day" role="button" data-date-val="December 17, 2022">
+									17
+									<span
+										class="event-indicator">
+										<div class="type-bullet">
+											<div class="type-event"></div>
+										</div>
+									</span>
+								</div>
+							</td>
+						</tr>
+						<tr class="calendar-body">
+							<td class="calendar-day --weekend">
+								<div class="day" role="button" data-date-val="December 18, 2022">18</div>
+							</td>
+							<td class="calendar-day">
+								<div class="day" role="button" data-date-val="December 19, 2022">19</div>
+							</td>
+							<td class="calendar-day">
+								<div class="day" role="button" data-date-val="December 20, 2022">20</div>
+							</td>
+							<td class="calendar-day">
+								<div class="day" role="button" data-date-val="December 21, 2022">21</div>
+							</td>
+							<td class="calendar-day">
+								<div class="day" role="button" data-date-val="December 22, 2022">22</div>
+							</td>
+							<td class="calendar-day">
+								<div class="day" role="button" data-date-val="December 23, 2022">23</div>
+							</td>
+							<td class="calendar-day --weekend">
+								<div class="day" role="button" data-date-val="December 24, 2022">24</div>
+							</td>
+						</tr>
+						<tr class="calendar-body">
+							<td class="calendar-day --weekend">
+								<div class="day" role="button" data-date-val="December 25, 2022">25</div>
+							</td>
+							<td class="calendar-day">
+								<div class="day" role="button" data-date-val="December 26, 2022">26</div>
+							</td>
+							<td class="calendar-day">
+								<div class="day" role="button" data-date-val="December 27, 2022">27</div>
+							</td>
+							<td class="calendar-day">
+								<div class="day" role="button" data-date-val="December 28, 2022">28</div>
+							</td>
+							<td class="calendar-day">
+								<div class="day" role="button" data-date-val="December 29, 2022">29</div>
+							</td>
+							<td class="calendar-day">
+								<div class="day" role="button" data-date-val="December 30, 2022">30</div>
+							</td>
+							<td class="calendar-day --weekend">
+								<div class="day" role="button" data-date-val="December 31, 2022">31</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="calendar-events">
+				<div class="d-flex flex-column">
+					${theme-default}
+					${theme-midnight-blue}
+					${theme-orange-coral}
+					${theme-royal-navy}
+				</div>
+				<div class="event-header">
+					<p>December7, 2022</p>
+				</div>
+				<div class="event-list">
+					<div class="event-container" role="button" data-event-index="in8bha4">
+						<div class="event-icon">
+							<div class="event-bullet-holiday"></div>
+						</div>
+						<div class="event-info">
+							<p class="event-title">Holiday #2</p>
+							<p class="event-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</div>
+					</div>
+					<div class="event-container" role="button" data-event-index="in8bha4">
+						<div class="event-icon">
+							<div class="event-bullet-event"></div>
+						</div>
+						<div class="event-info">
+							<p class="event-title">Event #2</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<span id="eventListToggler" role="button" aria-pressed="" title="Close event list">
+				<button
+					class="icon-button">
+					<span class="chevron-arrow-right"></span>
+				</button>
+			</span>
+		</div>
+	</message>
+
+</messages>

@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/calendar.css"> -->
+
+    <title>Testing widget styles here</title>
+</head>
+
+<body class="d-flex ">
+    <!-- <input type="radio" name="themeToggler" id="default" class="d-none" checked> -->
+    <!-- <input type="radio" name="themeToggler" id="midnightBlue" class="d-none">
+    <input type="radio" name="themeToggler" id="orangeCoral" class="d-none">
+    <input type="radio" name="themeToggler" id="royalNavy" class="d-none"> -->
+
+    <!-- <div class="spacer-between-sidebars">Theme 3 Dark / Light ^</div>
+
+
+    <div class="ui ui-dark ui-theme3">
+        <input type="checkbox" id="toggleSidebar">
+        <div class="sidebar p-2 pb-0">
+            <label for="toggleSidebar">
+                <i class="bi bi-list"></i>
+            </label>
+            <div class="sidebar-header pt-2 pb-3">
+                <h4>Event Manager Lab</h2>
+            </div>
+            <div class="sidebar-navigation mt-3">
+
+                <div>
+                    <div class="navigation-item py-2 mt-2 rounded d-block add-event-btn active">
+                        <i class="bi bi-calendar3-event mx-2"></i>
+                        <p class="d-inline">Add Event</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="navigation-item py-2 mt-2 rounded d-block">
+                        <i class="bi bi-calendar-week mx-2"></i>
+                        <p class="my-0 mx-2 d-inline">Calendar</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="navigation-item py-2 mt-2 rounded d-block">
+                        <i class="bi bi-speedometer2 mx-2"></i>
+                        <p class="my-0 mx-2 d-inline">Workload</p>
+                    </div>
+                </div>
+
+                <button class="btn-Primary rounded-3 m-2 mx-4 p-1">Primary</button>
+                <button class="btn-Info rounded m-2 mx-4 p-1">Info</button>
+                <button class="btn-Succes rounded m-2 mx-4 p-1">Succes</button>
+                <button class="btn-Warning rounded m-2 mx-4 p-1">Warning</button>
+                <button class="btn-Danger rounded m-2 mx-4 p-1">Danger</button>
+
+            </div>
+            <div class="sidebar-user">
+                <div class="user-profile p-3">
+                    <img src="../images/alex.jpg" alt="user image" class="rounded-circle" width="20%" />
+                    <h3 class="mx-3">Alex</h3>
+                    <i class="bi bi-chevron-up user-arrow-up"></i>
+
+                </div>
+                <div class="user-profile-content w-75">
+                    <div class="user-item user-item-1 p-2 px-3">Logout</div>
+                    <div class="user-item user-item-2 p-2 px-3">Settings</div>
+                    <div class="user-item user-item-3 p-2 px-3">Themes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="spacer-between-sidebars"></div>
+
+    <div class="ui ui-light ui-theme3">
+        <input type="checkbox" id="toggleSidebar">
+        <div class="sidebar p-2 pb-0">
+            <label for="toggleSidebar">
+                <i class="bi bi-list"></i>
+            </label>
+            <div class="sidebar-header pt-2 pb-3">
+                <h4>Event Manager Lab</h2>
+            </div>
+            <div class="sidebar-navigation mt-3">
+
+                <div>
+                    <div class="navigation-item py-2 mt-2 rounded d-block add-event-btn active">
+                        <i class="bi bi-calendar3-event mx-2"></i>
+                        <p class="d-inline">Add Event</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="navigation-item py-2 mt-2 rounded d-block">
+                        <i class="bi bi-calendar-week mx-2"></i>
+                        <p class="my-0 mx-2 d-inline">Calendar</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="navigation-item py-2 mt-2 rounded d-block">
+                        <i class="bi bi-speedometer2 mx-2"></i>
+                        <p class="my-0 mx-2 d-inline">Workload</p>
+                    </div>
+                </div>
+
+                <button class="btn-Primary rounded m-2 mx-4 p-1">Primary</button>
+                <button class="btn-Info rounded m-2 mx-4 p-1">Info</button>
+                <button class="btn-Succes rounded m-2 mx-4 p-1">Succes</button>
+                <button class="btn-Warning rounded m-2 mx-4 p-1">Warning</button>
+                <button class="btn-Danger rounded m-2 mx-4 p-1">Danger</button>
+
+            </div>
+            <div class="sidebar-user">
+                <div class="user-profile p-3">
+                    <img src="../images/alex.jpg" alt="user image" class="rounded-circle" width="20%" />
+                    <h3 class="mx-3">Alex</h3>
+                    <i class="bi bi-chevron-up user-arrow-up"></i>
+
+                </div>
+                <div class="user-profile-content w-75">
+                    <div class="user-item user-item-1 p-2 px-3">Logout</div>
+                    <div class="user-item user-item-2 p-2 px-3">Settings</div>
+                    <div class="user-item user-item-3 p-2 px-3">Themes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+-->
+    <!-- 
+    <div class="d-flex">
+        <div class="spacer-between-sidebars">Theme 2 Dark / Light ^</div>
+
+
+        <div class="ui ui-dark ui-theme3">
+            <input type="checkbox" id="toggleSidebar">
+            <div class="sidebar p-2 pb-0">
+                <label for="toggleSidebar">
+                    <i class="bi bi-list"></i>
+                </label>
+                <div class="sidebar-header pt-2 pb-3">
+                    <h4>Event Manager Lab</h2>
+                </div>
+                <div class="sidebar-navigation mt-3">
+
+                    <div>
+                        <div class="navigation-item py-2 mt-2 rounded d-block add-event-btn active">
+                            <i class="bi bi-calendar3-event mx-2"></i>
+                            <p class="d-inline">Add Event</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="navigation-item py-2 mt-2 rounded d-block">
+                            <i class="bi bi-calendar-week mx-2"></i>
+                            <p class="my-0 mx-2 d-inline">Calendar</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="navigation-item py-2 mt-2 rounded d-block">
+                            <i class="bi bi-speedometer2 mx-2"></i>
+                            <p class="my-0 mx-2 d-inline">Workload</p>
+                        </div>
+                    </div>
+
+                    <button class="btn-Primary rounded-3 m-2 mx-4 p-1">Primary</button>
+                    <button class="btn-Info rounded m-2 mx-4 p-1">Info</button>
+                    <button class="btn-Succes rounded m-2 mx-4 p-1">Succes</button>
+                    <button class="btn-Warning rounded m-2 mx-4 p-1">Warning</button>
+                    <button class="btn-Danger rounded m-2 mx-4 p-1">Danger</button>
+
+                </div>
+                <div class="sidebar-user">
+                    <div class="user-profile p-3">
+                        <img src="../images/alex.jpg" alt="user image" class="rounded-circle" width="20%" />
+                        <h3 class="mx-3">Alex</h3>
+                        <i class="bi bi-chevron-up user-arrow-up"></i>
+
+                    </div>
+                    <div class="user-profile-content w-75">
+                        <div class="user-item user-item-1 p-2 px-3">Logout</div>
+                        <div class="user-item user-item-2 p-2 px-3">Settings</div>
+                        <div class="user-item user-item-3 p-2 px-3">Themes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="spacer-between-sidebars"></div>
+
+        <div class="ui ui-light ui-theme3">
+            <input type="checkbox" id="toggleSidebar">
+            <div class="sidebar p-2 pb-0">
+                <label for="toggleSidebar">
+                    <i class="bi bi-list"></i>
+                </label>
+                <div class="sidebar-header pt-2 pb-3">
+                    <h4>Event Manager Lab</h2>
+                </div>
+                <div class="sidebar-navigation mt-3">
+
+                    <div>
+                        <div class="navigation-item py-2 mt-2 rounded d-block add-event-btn active">
+                            <i class="bi bi-calendar3-event mx-2"></i>
+                            <p class="d-inline">Add Event</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="navigation-item py-2 mt-2 rounded d-block">
+                            <i class="bi bi-calendar-week mx-2"></i>
+                            <p class="my-0 mx-2 d-inline">Calendar</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="navigation-item py-2 mt-2 rounded d-block">
+                            <i class="bi bi-speedometer2 mx-2"></i>
+                            <p class="my-0 mx-2 d-inline">Workload</p>
+                        </div>
+                    </div>
+
+                    <button class="btn-Primary rounded m-2 mx-4 p-1">Primary</button>
+                    <button class="btn-Info rounded m-2 mx-4 p-1">Info</button>
+                    <button class="btn-Succes rounded m-2 mx-4 p-1">Succes</button>
+                    <button class="btn-Warning rounded m-2 mx-4 p-1">Warning</button>
+                    <button class="btn-Danger rounded m-2 mx-4 p-1">Danger</button>
+
+                </div>
+                <div class="sidebar-user">
+                    <div class="user-profile p-3">
+                        <img src="../images/alex.jpg" alt="user image" class="rounded-circle" width="20%" />
+                        <h3 class="mx-3">Alex</h3>
+                        <i class="bi bi-chevron-up user-arrow-up"></i>
+
+                    </div>
+                    <div class="user-profile-content w-75">
+                        <div class="user-item user-item-1 p-2 px-3">Logout</div>
+                        <div class="user-item user-item-2 p-2 px-3">Settings</div>
+                        <div class="user-item user-item-3 p-2 px-3">Themes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="d-flex">
+
+        <div class="spacer-between-sidebars">Theme 2 Dark / Light ^</div>
+
+
+        <div class="ui ui-dark ui-theme2">
+            <input type="checkbox" id="toggleSidebar">
+            <div class="sidebar p-2 pb-0">
+                <label for="toggleSidebar">
+                    <i class="bi bi-list"></i>
+                </label>
+                <div class="sidebar-header pt-2 pb-3">
+                    <h4>Event Manager Lab</h2>
+                </div>
+                <div class="sidebar-navigation mt-3">
+
+                    <div>
+                        <div class="navigation-item py-2 mt-2 rounded d-block add-event-btn active">
+                            <i class="bi bi-calendar3-event mx-2"></i>
+                            <p class="d-inline">Add Event</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="navigation-item py-2 mt-2 rounded d-block">
+                            <i class="bi bi-calendar-week mx-2"></i>
+                            <p class="my-0 mx-2 d-inline">Calendar</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="navigation-item py-2 mt-2 rounded d-block">
+                            <i class="bi bi-speedometer2 mx-2"></i>
+                            <p class="my-0 mx-2 d-inline">Workload</p>
+                        </div>
+                    </div>
+
+                    <button class="btn-Primary rounded-3 m-2 mx-4 p-1">Primary</button>
+                    <button class="btn-Info rounded m-2 mx-4 p-1">Info</button>
+                    <button class="btn-Succes rounded m-2 mx-4 p-1">Succes</button>
+                    <button class="btn-Warning rounded m-2 mx-4 p-1">Warning</button>
+                    <button class="btn-Danger rounded m-2 mx-4 p-1">Danger</button>
+
+                </div>
+                <div class="sidebar-user">
+                    <div class="user-profile p-3">
+                        <img src="../images/alex.jpg" alt="user image" class="rounded-circle" width="20%" />
+                        <h3 class="mx-3">Alex</h3>
+                        <i class="bi bi-chevron-up user-arrow-up"></i>
+
+                    </div>
+                    <div class="user-profile-content w-75">
+                        <div class="user-item user-item-1 p-2 px-3">Logout</div>
+                        <div class="user-item user-item-2 p-2 px-3">Settings</div>
+                        <div class="user-item user-item-3 p-2 px-3">Themes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="spacer-between-sidebars"></div>
+
+        <div class="ui ui-light ui-theme2">
+            <input type="checkbox" id="toggleSidebar">
+            <div class="sidebar p-2 pb-0">
+                <label for="toggleSidebar">
+                    <i class="bi bi-list"></i>
+                </label>
+                <div class="sidebar-header pt-2 pb-3">
+                    <h4>Event Manager Lab</h2>
+                </div>
+                <div class="sidebar-navigation mt-3">
+
+                    <div>
+                        <div class="navigation-item py-2 mt-2 rounded d-block add-event-btn active">
+                            <i class="bi bi-calendar3-event mx-2"></i>
+                            <p class="d-inline">Add Event</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="navigation-item py-2 mt-2 rounded d-block">
+                            <i class="bi bi-calendar-week mx-2"></i>
+                            <p class="my-0 mx-2 d-inline">Calendar</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="navigation-item py-2 mt-2 rounded d-block">
+                            <i class="bi bi-speedometer2 mx-2"></i>
+                            <p class="my-0 mx-2 d-inline">Workload</p>
+                        </div>
+                    </div>
+
+                    <button class="btn-Primary rounded m-2 mx-4 p-1">Primary</button>
+                    <button class="btn-Info rounded m-2 mx-4 p-1">Info</button>
+                    <button class="btn-Succes rounded m-2 mx-4 p-1">Succes</button>
+                    <button class="btn-Warning rounded m-2 mx-4 p-1">Warning</button>
+                    <button class="btn-Danger rounded m-2 mx-4 p-1">Danger</button>
+
+                </div>
+                <div class="sidebar-user">
+                    <div class="user-profile p-3">
+                        <img src="../images/alex.jpg" alt="user image" class="rounded-circle" width="20%" />
+                        <h3 class="mx-3">Alex</h3>
+                        <i class="bi bi-chevron-up user-arrow-up"></i>
+
+                    </div>
+                    <div class="user-profile-content w-75">
+                        <div class="user-item user-item-1 p-2 px-3">Logout</div>
+                        <div class="user-item user-item-2 p-2 px-3">Settings</div>
+                        <div class="user-item user-item-3 p-2 px-3">Themes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div> -->
+
+    <div class="d-flex">
+        <div class="spacer-between-sidebars">Theme 1^</div>
+
+        <div class="ui ui-dark ui-theme1">
+            <input type="checkbox" id="toggleSidebar">
+            <div class="sidebar p-2 pb-0">
+                <label for="toggleSidebar">
+                    <i class="bi bi-list"></i>
+                </label>
+                <div class="sidebar-header pt-2 pb-3">
+                    <h4>Event Manager Lab</h2>
+                </div>
+                <div class="sidebar-navigation mt-3">
+
+                    <div>
+                        <div class="navigation-item py-2 mt-2 rounded d-block add-event-btn active">
+                            <i class="bi bi-calendar3-event mx-2"></i>
+                            <p class="d-inline">Add Event</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="navigation-item py-2 mt-2 rounded d-block">
+                            <i class="bi bi-calendar-week mx-2"></i>
+                            <p class="my-0 mx-2 d-inline">Calendar</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="navigation-item py-2 mt-2 rounded d-block">
+                            <i class="bi bi-speedometer2 mx-2"></i>
+                            <p class="my-0 mx-2 d-inline">Workload</p>
+                        </div>
+                    </div>
+
+                    <button class="btn-Primary rounded m-2 mx-4 p-1">Primary</button>
+                    <button class="btn-Info rounded m-2 mx-4 p-1">Info</button>
+                    <button class="btn-Succes rounded m-2 mx-4 p-1">Succes</button>
+                    <button class="btn-Warning rounded m-2 mx-4 p-1">Warning</button>
+                    <button class="btn-Danger rounded m-2 mx-4 p-1">Danger</button>
+
+                </div>
+                <div class="sidebar-user">
+                    <div class="user-profile p-3">
+                        <img src="../images/alex.jpg" alt="user image" class="rounded-circle" width="20%" />
+                        <h3 class="mx-3">Alex</h3>
+                        <i class="bi bi-chevron-up user-arrow-up"></i>
+
+                    </div>
+                    <div class="user-profile-content w-75">
+                        <div class="user-item user-item-1 p-2 px-3">Logout</div>
+                        <div class="user-item user-item-2 p-2 px-3">Settings</div>
+                        <div class="user-item user-item-3 p-2 px-3">Themes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="spacer-between-sidebars"></div>
+
+        <div class="ui ui-light ui-theme1">
+            <input type="checkbox" id="toggleSidebar">
+            <div class="sidebar p-2 pb-0">
+                <label for="toggleSidebar">
+                    <i class="bi bi-list"></i>
+                </label>
+                <div class="sidebar-header pt-2 pb-3">
+                    <h4>Event Manager Lab</h2>
+                </div>
+                <div class="sidebar-navigation mt-3">
+
+                    <div>
+                        <div class="navigation-item py-2 mt-2 rounded d-block add-event-btn active">
+                            <i class="bi bi-calendar3-event mx-2"></i>
+                            <p class="d-inline">Add Event</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="navigation-item py-2 mt-2 rounded d-block">
+                            <i class="bi bi-calendar-week mx-2"></i>
+                            <p class="my-0 mx-2 d-inline">Calendar</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="navigation-item py-2 mt-2 rounded d-block">
+                            <i class="bi bi-speedometer2 mx-2"></i>
+                            <p class="my-0 mx-2 d-inline">Workload</p>
+                        </div>
+                    </div>
+
+                    <button class="btn-Primary rounded m-2 mx-4 p-1">Primary</button>
+                    <button class="btn-Info rounded m-2 mx-4 p-1">Info</button>
+                    <button class="btn-Succes rounded m-2 mx-4 p-1">Succes</button>
+                    <button class="btn-Warning rounded m-2 mx-4 p-1">Warning</button>
+                    <button class="btn-Danger rounded m-2 mx-4 p-1">Danger</button>
+
+                </div>
+                <div class="sidebar-user">
+                    <div class="user-profile p-3">
+                        <img src="../images/alex.jpg" alt="user image" class="rounded-circle" width="20%" />
+                        <h3 class="mx-3">Alex</h3>
+                        <i class="bi bi-chevron-up user-arrow-up"></i>
+
+                    </div>
+                    <div class="user-profile-content w-75">
+                        <div class="user-item user-item-1 p-2 px-3">Logout</div>
+                        <div class="user-item user-item-2 p-2 px-3">Settings</div>
+                        <div class="user-item user-item-3 p-2 px-3">Themes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 
+    <div class="d-flex">
+
+        <div class="spacer-between-sidebars">Basic Dark / Light ^</div>
+
+        <div class="ui ui-dark">
+            <input type="checkbox" id="toggleSidebar">
+            <div class="sidebar p-2 pb-0">
+                <label for="toggleSidebar">
+                    <i class="bi bi-list"></i>
+                </label>
+                <div class="sidebar-header pt-2 pb-3">
+                    <h4>Event Manager Lab</h2>
+                </div>
+                <div class="sidebar-navigation mt-3">
+
+                    <div>
+                        <div class="navigation-item py-2 mt-2 rounded d-block add-event-btn active">
+                            <i class="bi bi-calendar3-event mx-2"></i>
+                            <p class="d-inline">Add Event</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="navigation-item py-2 mt-2 rounded d-block">
+                            <i class="bi bi-calendar-week mx-2"></i>
+                            <p class="my-0 mx-2 d-inline">Calendar</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="navigation-item py-2 mt-2 rounded d-block">
+                            <i class="bi bi-speedometer2 mx-2"></i>
+                            <p class="my-0 mx-2 d-inline">Workload</p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="sidebar-user">
+                    <div class="user-profile p-3">
+                        <img src="../images/alex.jpg" alt="user image" class="rounded-circle" width="20%" />
+                        <h3 class="mx-3">Alex</h3>
+                        <i class="bi bi-chevron-up user-arrow-up"></i>
+
+                    </div>
+                    <div class="user-profile-content w-75">
+                        <div class="user-item user-item-1 p-2 px-3">Logout</div>
+                        <div class="user-item user-item-2 p-2 px-3">Settings</div>
+                        <div class="user-item user-item-3 p-2 px-3">Themes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="spacer-between-sidebars"></div>
+
+        <div class="ui ui-light">
+            <input type="checkbox" id="toggleSidebar">
+            <div class="sidebar p-2 pb-0">
+                <label for="toggleSidebar">
+                    <i class="bi bi-list"></i>
+                </label>
+                <div class="sidebar-header pt-2 pb-3">
+                    <h4>Event Manager Lab</h2>
+                </div>
+                <div class="sidebar-navigation mt-3">
+
+                    <div>
+                        <div class="navigation-item py-2 mt-2 rounded d-block add-event-btn active">
+                            <i class="bi bi-calendar3-event mx-2"></i>
+                            <p class="d-inline">Add Event</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="navigation-item py-2 mt-2 rounded d-block">
+                            <i class="bi bi-calendar-week mx-2"></i>
+                            <p class="my-0 mx-2 d-inline">Calendar</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="navigation-item py-2 mt-2 rounded d-block">
+                            <i class="bi bi-speedometer2 mx-2"></i>
+                            <p class="my-0 mx-2 d-inline">Workload</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar-user">
+                    <div class="user-profile p-3">
+                        <img src="../images/alex.jpg" alt="user image" class="rounded-circle" width="20%" />
+                        <h3 class="mx-3">Alex</h3>
+                        <i class="bi bi-chevron-up user-arrow-up"></i>
+
+                    </div>
+                    <div class="user-profile-content w-75">
+                        <div class="user-item user-item-1 p-2 px-3">Logout</div>
+                        <div class="user-item user-item-2 p-2 px-3">Settings</div>
+                        <div class="user-item user-item-3 p-2 px-3">Themes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

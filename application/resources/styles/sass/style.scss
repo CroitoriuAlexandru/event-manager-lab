@@ -1,0 +1,56 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap');
+@import "Application/globals";
+
+// Variables & Mixins
+@import "Application/variables";
+@import "Application/mixins";
+
+// Bootstrap Framework
+@import "../node_modules/bootstrap/scss/bootstrap-reboot.scss";
+@import "../node_modules/bootstrap/scss/bootstrap-utilities.scss";
+
+// Panels
+@import "Application/sidebar";
+@import "Application/content";
+
+// Skins
+@import "Application/skins/base";
+@import "Application/skins/blue";
+@import "Application/skins/dark";
+@import "Application/skins/red";
+@import "Application/skins/indigo";
+@import "Application/skins/gradient";
+
+// Interaction
+@import "Application/animate";
+@import "Application/scrollbar";
+
+// login page
+@import "Application/login";
+@import "Application/eventDataView"
+// @import "Application";
+// @forward "testThemes";
+// @forward "globals";
+// @forward "application";
+// @forward "sidebar";
+// @forward "calendar";
+
+
+
+//  * Evo Calendar - Simple and Modern-looking Event Calendar Plugin
+//  *
+//  * Licensed under the MIT License
+//  * 
+//  * Author: Edlyn Villegas
+//  * Docs: https://edlynvillegas.github.com/evo-calendar
+//  * Repo: https://github.com/edlynvillegas/evo-calendar
+//  * Issues: https://github.com/edlynvillegas/evo-calendar/issues
+//  * 
+
+
+
+
+
+// https://github.com/themepixels/dashnav for the sidebar and themes
+// https://codepen.io/FlorinPop17/pen/vPKWjd for authentification and registration styles 

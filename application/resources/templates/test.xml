@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<messages>
+
+
+	<message id='logout-btn'>
+
+		<div class="btn btn-outline-secondary w-100 fs-4 font-weight-bold">Logout</div>
+
+	</message>
+
+</messages>
